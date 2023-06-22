@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // var a=10;
+        // var a=20;
+        //const a=11;
+        let a=10;
+        a=10+20;
+
+        console.log('Sum = '+a);
+
+        function Hello(){
+            console.log('Hey Alyani !');
+        }
+
+        let objA = {
+            r: 10,
+            m: 20,
+
+        }
+
+        document.addEventListener("click",function Click(){
+            console.log("Clicked");
+            //alert("E bhai eyyy!");
+
+            let conf = confirm("Pakku Ne ?")
+            console.log(conf);
+        })
+
+        let arr = [10,11,12];
+
+     //   func: function myfun(number){
+       //     console.log("This Number Is "+number);
+        //}
+
+        let myfun = (number)=>{
+            console.log("This Number Is "+this);
+        }
+        myfun(10);
+//callback
+        setTimeout(()=>{
+            console.log("Im The callback")
+        },4000);
+        console.log("Ill Executed first");
+
+    </script>
+</head>
+<body>
+    <h1>Im Learning JS</h1>
+</body>
+</html>
